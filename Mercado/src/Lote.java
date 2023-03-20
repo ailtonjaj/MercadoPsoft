@@ -2,9 +2,9 @@ import java.sql.Date;
 
 public class Lote {
 	
-	Produto prod;
-	Date validade;
-	int quantidade;
+	private Produto prod;
+	private Date validade;
+	private int quantidade;
 	
 	public Lote(Produto prod, Date validade, int quantidade) {
 		this.prod = prod;

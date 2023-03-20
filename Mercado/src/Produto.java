@@ -1,9 +1,9 @@
 
 public class Produto {
 	
-	String nome;
-	String fornecedor;
-	double preço;
+	private String nome;
+	private String fornecedor;
+	private double preço;
 	
 	public Produto(String nome, String fornecedor, double preço) {
 		this.nome = nome;
